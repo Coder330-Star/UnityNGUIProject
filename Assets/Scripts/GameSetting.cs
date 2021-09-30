@@ -68,6 +68,7 @@ public class GameSetting : MonoBehaviour
         optionPanelTween.PlayForward();
         Debug.Log("选项");
     }
+
     public void OnOptionPanelButtonClick()
     {
         startPanelTween.PlayReverse();
